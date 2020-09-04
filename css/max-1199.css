@@ -1,0 +1,103 @@
+section{
+  min-height: 60vh;
+}
+.title{
+  font-size: 40px;
+}
+/* =================== top bar ================== */
+.top-nav-li{
+  margin-right: 12px;
+}
+
+/* =================== first view ================== */
+.fv-text{
+  width: 100%;
+  font-size: 32px;
+}
+
+/* ===================== about ====================== */
+.about-inner{
+  width: 90%;
+}
+/* ===================== about-img ===================== */
+.about-img{
+  align-items: flex-start;
+}
+.profile-img{
+  width: 100%;
+  height: auto;
+}
+/* ======================= about-contents ===================== */
+.mini-title{
+  font-size: 28px;
+}
+.profile-inner{
+  margin: 0 auto 32px;
+}
+.profile-inner p{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.skill-list p{
+  font-size: 14px;
+}
+
+/* =========================== works ======================= */
+@media screen and (max-width:859px){
+  .image-box{
+    width: 240px;
+  }
+  .image-box::after{
+    font-size: 16px;
+  }
+  .image-box-01{
+    padding-top: calc(1919/1919*240px);
+  }
+  .image-box-02{
+    padding-top: calc(1918/1918*240px);
+  }
+  .image-box-03{
+    padding-top: calc(841/841*240px);
+  }
+  .image-box-04{
+    padding-top: calc(1914/1914*240px);
+  }
+}
+/* =========================== services ====================== */
+.services{
+  min-height: 50vh;
+}
+.services-inner{
+  width: 90%;
+}
+.services-h3{
+  font-size: 22px;
+}
+.services-h3 span{
+  padding: 4px 8px;
+}
+/* =========================== access ======================== */
+.access-inner{
+  width: 90%;
+  flex-direction: column;
+}
+.access-detail{
+  width: 100%;
+}
+.place-description{
+  margin-bottom: 40px;
+}
+.map{
+  width: 100%;
+}
+
+/* =========================== contact =========================== */
+.contact{
+  min-height: 80vh;
+}
+.submit-btn{
+  width: 30%;
+  margin-left: 60%;
+}
+
+/* =========================== footer ============================ */

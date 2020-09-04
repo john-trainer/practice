@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="よしかわが独学５ヶ月目に作成したポートフォリオサイトです。HTML,CSS,jQueryを使用しています。推奨ブラウザはChromeです。もう一度言います。Chromeです。" name="description">
+  <meta property="og:title" content="よしかわのポートフォリオサイト" />
+  <meta property="og:type" content="summary_large_image" />
+
+  <!-- まだここ２つ記入してないとこある -->
+  <meta property="og:url" content="ページの URL" />
+  <meta property="og:image" content="https://github.com/john-trainer/images/blob/master/thumbnail.png?raw=true" />
+
+  <meta property="og:description" content="独学５ヶ月目に作成したポートフォリオサイトです。HTML,CSS,jQueryを使用しています。" />
+  <link rel="stylesheet" href="./css/destyle.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/max-1199.css" media="screen and (max-width:1199px)">
+  <link rel="stylesheet" href="./css/max-767.css" media="screen and (max-width:767px)">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+  <title>よしかわのポートフォリオサイト</title>
+</head>
+<body ontouchstart="">
+  <!-- ==================================== loading animation ======================================= -->
+  <div id="loading">
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+  </div>
+  <!-- ==================================== top bar ======================================== -->
+  <header class="top-bar">
+    <h3 class="top-name">Akira Yoshikawa</h3>
+    <ul class="top-nav">
+      <li class="top-nav-li"><a href="#about">About</a></li>
+      <li class="top-nav-li"><a href="#works">Works</a></li>
+      <li class="top-nav-li"><a href="#services">Services</a></li>
+      <li class="top-nav-li"><a href="#access">Access</a></li>
+      <li class="top-nav-li"><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- ================================== hamburger menu ===================================== -->
+    <span class="nav-btn">
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+    <nav class="ham-menu">
+      <ul class="ham-menu-ul">
+        <li class="ham-menu-li"><a href="#about">About</a></li>
+        <li class="ham-menu-li"><a href="#works">Works</a></li>
+        <li class="ham-menu-li"><a href="#services">Services</a></li>
+        <li class="ham-menu-li"><a href="#access">Access</a></li>
+        <li class="ham-menu-li"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ============================ first view ================================== -->
+  <div class="first-view">
+    <div class="wrapper fv-wrapper">
+      <div class="fv-image"></div>
+    </div>
+    <p class="fv-text">Welcome to my portfolio!</p>
+  </div>
+  <!-- ==================================== about =================================== -->
+  <section class="about goSection" id="about">
+    <div class="wrapper about-wrapper">
+      <h2 class="title about-h2">About</h2>
+      <div class="about-inner">
+        <div class="about-img">
+          <img class="profile-img" src="./images/male.png" alt="male">
+        </div>
+        <div class="about-contents">
+          <div class="profile-wrapper">
+            <h3 class="mini-title">Profile</h3>
+            <div class="profile-inner">
+              <p>吉川輝</p>
+              <p>22歳</p>
+              <p>青山学院大学 在学</p>
+              <p>ここにメッセージを書きます。ここにメッセージを書きます。ここにメッセージを書きます。ここにメッセージを書きます。<br>
+                ここにメッセージを書きます。ここにメッセージを書きます。ここにメッセージを書きます。ここにメッセージを書きます。</p>
+            </div>
+          </div>
+          <div class="skill-wrapper">
+            <h3 class="mini-title">Skill</h3>
+            <div class="skill-inner">
+              <ul>
+                <li class="skill-list">
+                  <img src="https://img.icons8.com/windows/100/000000/html-5.png"/>
+                  <p>HTML 5</p>
+                </li>
+                <li class="skill-list">
+                  <img src="https://img.icons8.com/windows/100/000000/css3.png"/>
+                  <p>CSS 3</p>
+                </li>
+                <li class="skill-list">
+                  <img src="https://img.icons8.com/windows/100/000000/bootstrap.png"/>
+                  <p>Bootstrap</p>
+                </li>
+                <li class="skill-list">
+                  <img src="https://img.icons8.com/ios-filled/100/000000/jquery.png"/>
+                  <p>jQuery</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================== works ============================================= -->
+  <section class="works" id="works">
+    <div class="wrapper works-wrapper">
+      <h2 class="title works-title">Works</h2>
+      <div class="works-inner">
+        <a class="works-box neon" href="https://drive.google.com/drive/folders/1WDGetoausyp-PBpT0d4jo2kjiO7KGSqJ?usp=sharing">
+          <div class="image-box image-box-01"></div>
+        </a>
+        <a class="works-box neon" href="https://drive.google.com/drive/folders/1WDGetoausyp-PBpT0d4jo2kjiO7KGSqJ?usp=sharing">
+          <div class="image-box image-box-02"></div>
+        </a>
+        <a class="works-box neon" href="https://drive.google.com/drive/folders/1WDGetoausyp-PBpT0d4jo2kjiO7KGSqJ?usp=sharing">
+          <div class="image-box image-box-03"></div>
+        </a>
+        <a class="works-box neon" href="https://john-trainer.github.io/lp/">
+          <div class="image-box image-box-04"></div>
+        </a>
+    </div>
+  </section>
+  <!-- ============================================ services ================================================ -->
+  <section class="services" id="services">
+    <div class="wrapper services-wrapper">
+      <h2 class="title services-title">Services</h2>
+      <div class="services-inner">
+        <div class="services-content">
+          <img src="images/pc.svg" alt="デスクトップPCの画像" class="services-image">
+          <h3 class="services-h3"><span>WEBサイト制作</span></h3>
+          <p class="services-p">
+            ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。
+          </p>
+        </div>
+        <div class="services-content">
+          <img src="images/code.svg" alt="コーディングの画像" class="services-image">
+          <h3 class="services-h3"><span>コーディング代行</span></h3>
+          <p class="services-p">
+            ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。
+          </p>
+        </div>
+        <div class="services-content">
+          <img src="images/phone.svg" alt="スマホの画像" class="services-image">
+          <h3 class="services-h3"><span>スマホサイズ対応</span></h3>
+          <p class="services-p">
+            ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。ここにサービスの説明を書きます。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============================================ access ==================================================- -->
+  <section class="access" id="access">
+    <div class="wrapper access-wrapper">
+      <h2 class="title access-title">Access</h2>
+      <div class="access-inner">
+        <div class="access-detail">
+          <h4 class="place-name">Old Trafford</h4>
+          <address class="place-add">
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="pa-p">Sir Matt Busby Way, Old Trafford, Stretford, Manchester M16 0RA イギリス</p>
+            <i class="fas fa-phone"></i>
+            <p class="pa-p">+441618688000</p>
+          </address>
+          <p class="place-description">プレミアリーグ最多優勝記録を持つ、マンチェスター・ユナイテッドのホームグラウンドです。</p>
+        </div>
+        <div class="map">
+          <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9501.598935831727!2d-2.2935646256469457!3d53.46131580572316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae72e7e47f69%3A0x6c930e96df4455fe!2z44Kq44O844Or44OJ44O744OI44Op44OD44OV44Kp44O844OJ!5e0!3m2!1sja!2sjp!4v1598844446986!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============================================ contact ================================================= -->
+  <section class="contact" id="contact">
+    <div class="wrapper contact-wrapper">
+      <h2 class="title contact-title">Contact</h2>
+      <div class="contact-inner">
+        <!-- class, action, methodを変更しないでください -->
+        <form class="formrun" action="https://form.run/api/v1/r/d4aexugt6kgc4poz5lf4jahz" method="post">
+        <!-- ↓自由に要素を追加・編集することができます -->
+          <div class="form">
+            <label>お名前</label>
+            <input class="b-bottom" name="お名前" type="text">
+          </div>
+          <div class="form">
+            <label>メールアドレス<sapn class="required">*</sapn>
+              <div class="error" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+            </label>
+            <input class="b-bottom" name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+          </div>
+          <div class="form">
+            <label class="m-bottom">お問い合わせ<sapn class="required">*</sapn>
+              <div class="error" data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+            </label>
+            <textarea class="b-box" name="お問い合わせ" data-formrun-required></textarea>
+          </div>
+          <button class="submit-btn" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ============================================ footer =================================================== -->
+  <footer class="footer">
+    <p class="copyright">&copy;2020 Akira Yoshikawa</p>
+    <p class="icons8-cash">Skill icons by <a href="https://icons8.com/icons">icons8</a></p>
+  </footer>
+
+  <div id="top-btn">&#9757;</div>
+</body>
+</html>

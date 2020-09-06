@@ -190,6 +190,7 @@ section{
 .ham-menu-li{
   font-size: 18px;
   padding-top: 8px;
+  color: #f2f2f2;
 }
 .ham-menu.show {
   opacity: 1;
